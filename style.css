@@ -726,9 +726,6 @@ swiper-container {
 
   }
 
-.contact_input:focus {
-    border: red;
-}
 .contact_label::before {
     content: "";
     height: 5px;
@@ -746,7 +743,6 @@ swiper-container {
 }
 .contact_input::placeholder{
     font-size: 16px;
-    /* opacity: 0; */
     transition: all .3s;
 }
 .contact_input:focus::placeholder {
